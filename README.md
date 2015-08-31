@@ -92,3 +92,8 @@ Please submit any feedback via an issue or a tweet to [@erikras](https://twitter
 Happy coding!
 
 -- Erik Rasmussen
+
+---
+
+![C'mon! Let's migrate all our reducers!](migrate.jpg)
+> Photo credit to [Airwolfhound](https://www.flickr.com/photos/24874528@N04/3453886876/).
