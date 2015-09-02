@@ -25,19 +25,19 @@ export default function reducer(state = {}, action = {}) {
   }
 }
 
-export function loadWidgets() = {
+export function loadWidgets() {
   return { type: LOAD };
 }
 
-export function createWidget(widget) = {
+export function createWidget(widget) {
   return { type: CREATE, widget };
 }
 
-export function updateWidget(widget) = {
+export function updateWidget(widget) {
   return { type: UPDATE, widget };
 }
 
-export function removeWidget(widget) = {
+export function removeWidget(widget) {
   return { type: REMOVE, widget };
 }
 ```
