@@ -8,6 +8,8 @@ To me, it makes more sense for these components to be bundled together in an iso
 
 ## The Proposal
 
+Still stuck in the land of `require` and `var`? See [Common JS Example](CommonJs.md).
+
 ### Example
 
 ```javascript
