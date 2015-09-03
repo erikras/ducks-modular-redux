@@ -1,8 +1,5 @@
 ## Common JS Example
 
-For those of you still stuck in the land of `require` and `var`...
-
-
 ```javascript
 // widgets.js
 
