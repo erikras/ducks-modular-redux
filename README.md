@@ -80,9 +80,9 @@ import * as widgetActions from './ducks/widgets';
 There will be some times when you want to `export` something other than an action creator. That's okay, too. The rules don't say that you can *only* `export` action creators. When that happens, you'll just have to enumerate the action creators that you want. Not a big deal.
 
 ```javascript
-import {create, update, remove, increment} from './ducks/widgets';
+import {loadWidgets, createWidget, updateWidget, removeWidget} from './ducks/widgets';
 // ...
-bindActionCreators({create, update, remove, increment}, dispatch);
+bindActionCreators({loadWidgets, createWidget, updateWidget, removeWidget}, dispatch);
 ```
 
 ### Implementation
