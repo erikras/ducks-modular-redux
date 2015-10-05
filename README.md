@@ -85,6 +85,10 @@ import {loadWidgets, createWidget, updateWidget, removeWidget} from './ducks/wid
 bindActionCreators({loadWidgets, createWidget, updateWidget, removeWidget}, dispatch);
 ```
 
+### Example
+
+[React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example) uses ducks.
+
 ### Implementation
 
 The migration to this code structure was [painless](https://github.com/erikras/react-redux-universal-hot-example/commit/3fdf194683abb7c40f3cb7969fd1f8aa6a4f9c57), and I foresee it reducing much future development misery.
