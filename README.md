@@ -87,7 +87,7 @@ bindActionCreators({loadWidgets, createWidget, updateWidget, removeWidget}, disp
 
 ### Example
 
-[React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example) uses ducks.
+[React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example) uses ducks. See [`/src/redux/modules`](https://github.com/erikras/react-redux-universal-hot-example/tree/master/src/redux/modules).
 
 ### Implementation
 
