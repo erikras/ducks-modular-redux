@@ -4,7 +4,7 @@
 
 I find as I am building my redux app, one piece of functionality at a time, I keep needing to add  `{actionTypes, actions, reducer}` tuples for each use case. I have been keeping these in separate files and even separate folders, however 95% of the time, it's only one reducer/actions pair that ever needs their associated actions.
 
-To me, it makes more sense for these components to be bundled together in an isolated module that is self contained, and can even be packaged easily into a library.
+To me, it makes more sense for these pieces to be bundled together in an isolated module that is self contained, and can even be packaged easily into a library.
 
 ## The Proposal
 
