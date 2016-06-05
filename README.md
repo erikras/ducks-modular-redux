@@ -15,11 +15,13 @@ See also: [Common JS Example](CommonJs.md).
 ```javascript
 // widgets.js
 
+// Actions
 const LOAD   = 'my-app/widgets/LOAD';
 const CREATE = 'my-app/widgets/CREATE';
 const UPDATE = 'my-app/widgets/UPDATE';
 const REMOVE = 'my-app/widgets/REMOVE';
 
+// Reducer
 export default function reducer(state = {}, action = {}) {
   switch (action.type) {
     // do reducer stuff
@@ -27,6 +29,7 @@ export default function reducer(state = {}, action = {}) {
   }
 }
 
+// Action Creators
 export function loadWidgets() {
   return { type: LOAD };
 }
