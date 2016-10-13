@@ -22,7 +22,7 @@ const UPDATE = 'my-app/widgets/UPDATE';
 const REMOVE = 'my-app/widgets/REMOVE';
 
 // Reducer
-export default function reducer(state = {}, action = {}) {
+export default function reducer(state = {}, action) {
   switch (action.type) {
     // do reducer stuff
     default: return state;
