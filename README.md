@@ -102,6 +102,11 @@ Happy coding!
 
 -- Erik Rasmussen
 
+
+### Translation
+
+[한국어](https://github.com/JisuPark/ducks-modular-redux)
+
 ---
 
 ![C'mon! Let's migrate all our reducers!](migrate.jpg)
