@@ -113,7 +113,7 @@ Happy coding!
 
 ![C'mon! Let's migrate all our reducers!](migrate.jpg)
 > Photo credit to [Airwolfhound](https://www.flickr.com/photos/24874528@N04/3453886876/).
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
+
+---
 
 [![Beerpay](https://beerpay.io/erikras/ducks-modular-redux/badge.svg?style=beer-square)](https://beerpay.io/erikras/ducks-modular-redux)  [![Beerpay](https://beerpay.io/erikras/ducks-modular-redux/make-wish.svg?style=flat-square)](https://beerpay.io/erikras/ducks-modular-redux?focus=wish)
