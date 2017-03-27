@@ -98,6 +98,13 @@ bindActionCreators({loadWidgets, createWidget, updateWidget, removeWidget}, disp
 
 The migration to this code structure was [painless](https://github.com/erikras/react-redux-universal-hot-example/commit/3fdf194683abb7c40f3cb7969fd1f8aa6a4f9c57), and I foresee it reducing much future development misery.
 
+Although it's completely feisable to implement it without any extra library, there are some tools that might help you:
+
+ * [extensible-duck](https://github.com/investtools/extensible-duck) - Implementation of the Ducks proposal. With this library you can create reusable and extensible ducks.
+ * [redux-duck](https://github.com/PlatziDev/redux-duck) - Helper function to create Redux modules using the ducks-modular-redux proposal
+ * [modular-redux-thunk](https://github.com/benbeadle/modular-redux-thunk) - A ducks-inspired package to help organize actions, reducers, and selectors together - with built-in redux-thunk support for async actions.
+ * [molecular-js](https://www.npmjs.com/package/molecular-js) - Set of utilities to ease the development of modular state management patterns with Redux (also known as ducks).
+
 Please submit any feedback via an issue or a tweet to [@erikras](https://twitter.com/erikras). It will be much appreciated.
 
 Happy coding!
