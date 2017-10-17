@@ -24,6 +24,7 @@ const LOAD   = 'my-app/widgets/LOAD';
 const CREATE = 'my-app/widgets/CREATE';
 const UPDATE = 'my-app/widgets/UPDATE';
 const REMOVE = 'my-app/widgets/REMOVE';
+const SET    = 'my-app/widgets/SET';
 
 // Reducer
 export default function reducer(state = {}, action = {}) {
@@ -48,6 +49,10 @@ export function updateWidget(widget) {
 
 export function removeWidget(widget) {
   return { type: REMOVE, widget };
+}
+
+export function setWidget(widget) {
+  return { type: SET, widget };
 }
 
 // side effects, only as applicable
