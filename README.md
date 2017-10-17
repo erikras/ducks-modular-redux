@@ -53,7 +53,7 @@ export function removeWidget(widget) {
 // side effects, only as applicable
 // e.g. thunks, epics, etc
 export function getWidget () {
-  return dispatch => get('/widget').then(widget => dispatch(setWidget(widget)))
+  return dispatch => get('/widget').then(widget => dispatch(updateWidget(widget)))
 }
 
 ```
