@@ -6,10 +6,6 @@ I find as I am building my redux app, one piece of functionality at a time, I ke
 
 To me, it makes more sense for these pieces to be bundled together in an isolated module that is self contained, and can even be packaged easily into a library.
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/P3WjkUw9LiYdiQBdHrtHZSSL/erikras/ducks-modular-redux'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/P3WjkUw9LiYdiQBdHrtHZSSL/erikras/ducks-modular-redux.svg' />
-</a>
-
 ## The Proposal
 
 ### Example
