@@ -87,6 +87,8 @@ import * as widgetActions from './ducks/widgets';
 ```
 ...and it will only import the action creators, ready to be passed to `bindActionCreators()`.
 
+> Actually, it'll also import `default`, which will be the reducer function. It'll add an action creator named `default` that won't work. If that's a problem for you, you should enumerate each action creator when importing.
+
 There will be some times when you want to `export` something other than an action creator. That's okay, too. The rules don't say that you can *only* `export` action creators. When that happens, you'll just have to enumerate the action creators that you want. Not a big deal.
 
 ```javascript
