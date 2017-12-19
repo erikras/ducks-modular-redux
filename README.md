@@ -110,6 +110,7 @@ The migration to this code structure was [painless](https://github.com/erikras/r
 Although it's completely feasable to implement it without any extra library, there are some tools that might help you:
 
  * [extensible-duck](https://github.com/investtools/extensible-duck) - Implementation of the Ducks proposal. With this library you can create reusable and extensible ducks.
+ * [saga-duck](https://github.com/cyrilluce/saga-duck) - Implementation of the Ducks proposal in Typescript with [sagas](https://github.com/redux-saga/redux-saga) in mind. Results in reusable and extensible ducks.
  * [redux-duck](https://github.com/PlatziDev/redux-duck) - Helper function to create Redux modules using the ducks-modular-redux proposal
  * [modular-redux-thunk](https://github.com/benbeadle/modular-redux-thunk) - A ducks-inspired package to help organize actions, reducers, and selectors together - with built-in redux-thunk support for async actions.
  * [molecular-js](https://www.npmjs.com/package/molecular-js) - Set of utilities to ease the development of modular state management patterns with Redux (also known as ducks).
