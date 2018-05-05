@@ -127,6 +127,7 @@ Happy coding!
 
 [한국어](https://github.com/JisuPark/ducks-modular-redux)
 [中文](https://github.com/deadivan/ducks-modular-redux)
+[Türkçe](https://github.com/mfyz/ducks-modular-redux-tr)
 
 ---
 
