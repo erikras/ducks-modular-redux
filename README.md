@@ -103,6 +103,18 @@ bindActionCreators({loadWidgets, createWidget, updateWidget, removeWidget}, disp
 
 [Todomvc using ducks.](https://github.com/goopscoop/ga-react-tutorial/tree/6-reduxActionsAndReducers)
 
+### BattleCry generators
+
+There are configurable [BattleCry](https://github.com/pedsmoreira/battlecry) generators ready to be downloaded and help scaffolding ducks:
+
+```sh
+npm install -g battlecry
+cry download erikras/ducks-modular-redux
+cry init duck
+```
+
+Run `cry --help` to check more info about the generators available;
+
 ### Implementation
 
 The migration to this code structure was [painless](https://github.com/erikras/react-redux-universal-hot-example/commit/3fdf194683abb7c40f3cb7969fd1f8aa6a4f9c57), and I foresee it reducing much future development misery.
