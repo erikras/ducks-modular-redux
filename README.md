@@ -109,7 +109,7 @@ There are configurable [BattleCry](https://github.com/pedsmoreira/battlecry) gen
 
 ```sh
 npm install -g battlecry
-cry download erikras/ducks-modular-redux
+cry download generator erikras/ducks-modular-redux
 cry init duck
 ```
 
