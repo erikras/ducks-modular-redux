@@ -1,3 +1,9 @@
+<p align="center">
+<a href="https://codefund.io/properties/555/visit-sponsor">
+<img src="https://codefund.io/properties/555/sponsor" />
+</a>
+</p>
+    
 # Ducks: Redux Reducer Bundles
 
 <img src="duck.jpg" align="right"/>
