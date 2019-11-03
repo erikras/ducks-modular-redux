@@ -28,7 +28,9 @@ const UPDATE = 'my-app/widgets/UPDATE';
 const REMOVE = 'my-app/widgets/REMOVE';
 
 // Reducer
-export default function reducer(state = {}, action = {}) {
+export const defaultState = {};
+
+export default function reducer(state = defaultState, action = {}) {
   switch (action.type) {
     // do reducer stuff
     default: return state;
@@ -67,6 +69,7 @@ A module...
 2. MUST `export` its action creators as functions
 3. MUST have action types in the form `npm-module-or-app/reducer/ACTION_TYPE`
 3. MAY export its action types as `UPPER_SNAKE_CASE`, if an external reducer needs to listen for them, or if it is a published reusable library
+4. MAY export its default state
 
 These same guidelines are recommended for `{actionType, action, reducer}` bundles that are shared as reusable Redux libraries.
 
