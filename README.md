@@ -134,6 +134,7 @@ Although it's completely feasable to implement it without any extra library, the
  * [molecular-js](https://www.npmjs.com/package/molecular-js) - Set of utilities to ease the development of modular state management patterns with Redux (also known as ducks).
  * [ducks-reducer](https://github.com/drpicox/ducks-reducer) - Function to combine _ducks object_ reducers into one reducer (equivalent to [combineReducers](https://redux.js.org/docs/api/combineReducers.html)), and function [ducks-middleware](https://github.com/drpicox/ducks-middleware) to combine _ducks object_ middleware into one single middleware compatible with [applyMiddleware](https://redux.js.org/docs/api/applyMiddleware.html).
  * [simple-duck](https://github.com/xander27/simple-duck) - Class based implementation of modules system, inspired by ducks-modular-redux. All OOP benefits like inheritance and composition. Support combining of duck-module classes and regular reducer functions using `combineModules` function.
+ * [ducks](https://www.npmjs.com/package/ducks) - Ducks is a Reducer Bundles Manager that Implementing the Redux Ducks Modular Proposal with Great Convenience.
 
 Please submit any feedback via an issue or a tweet to [@erikras](https://twitter.com/erikras). It will be much appreciated.
 
